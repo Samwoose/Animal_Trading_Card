@@ -1,0 +1,41 @@
+/* add your CSS here */
+.outer-box {
+    width : 310px;
+    border: 1px solid gray;
+    padding: 5px;
+    
+
+}
+/* Heade r*/
+.header-box {
+    margin: 5px;
+
+}
+
+/* Content */
+.image-box {
+    width: 300px;
+    border: 1px solid gray;
+    margin: 5px;
+    
+}
+
+.inner-box {
+    border: 1px solid gray;
+    padding: 5px;
+    width: 290px;/*Since there are padding of 5px on left and right, width of inner box is 290px so that it is the same as width of image*/
+    margin: 5px;
+}
+.p-box {
+    font-style: italic;
+
+}
+.ul-box {
+	list-style-type: none;  
+    padding-left: 0; 
+    
+}
+
+.ul-box li span {
+	font-weight: bold;   
+}
